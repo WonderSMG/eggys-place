@@ -12,7 +12,7 @@ const OrderDetails = () => {
   useEffect(() => {
     const fetchOrder = async () => {
       try {
-        const res = await axios.get(`${baseUrl}/api/order/${orderId}`, {
+        const res = await axios.get(`https://eggys-place-7k45.onrender.com/api/order/${orderId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

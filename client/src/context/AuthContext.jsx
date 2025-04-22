@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
                 return;
               }
       
-              const response = await fetch(`${baseUrl}/api/auth/isloggedin`, {
+              const response = await fetch(`https://eggys-place-7k45.onrender.com/api/auth/isloggedin`, {
                 headers: { Authorization: `Bearer ${token}` },
               });
       
