@@ -11,7 +11,7 @@ const Delivery = ({handleFormActivity2,savedAddress,deliveryAddress,handleAddres
                 Delivery Address
               </h1>
               <button
-                className="cursor-pointer text-[#B67B0F] text-[20px] md:text-[18px] font-[400]  "
+                className="cursor-pointer text-[#B67B0F] text-[20px] md:text-[18px] font-[400] "
                 onClick={handleFormActivity2}
               >
                 {savedAddress ? "Edit" : "Add"}
